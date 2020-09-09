@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  flex-direction: row-reverse;
   height: 100vh;
 }
 
@@ -43,10 +44,55 @@
 
 .rightSection {
   display: flex;
-  flex-grow: 1;
   align-items: center;
   justify-content: center;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+}
+
+.rightSection__content {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.rightSection__brand {
+  color: var(--twitter-color);
+  font-size: 2.8rem !important;
+  margin-bottom: 10px;
+}
+
+.rightSection__content > h4 {
+  margin-top: 59px;
+  margin-bottom: 15px;
+}
+
+.rightSection__content > a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px auto;
+  border: 1px solid var(--twitter-color);
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.signupButton {
+  background-color: var(--twitter-color);
+  color: white;
+}
+
+.loginButton {
+  background-color: white;
+  color: var(--twitter-color);
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
 }
