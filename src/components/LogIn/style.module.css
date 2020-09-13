@@ -16,42 +16,6 @@
   font-size: 2.6rem !important;
 }
 
-.inputContainer {
-  width: 100%;
-  padding: 5px 10px;
-  background-color: rgb(245, 248, 250);
-  margin: 20px 0;
-  text-align: left;
-  border-bottom: 2px solid rgb(101, 119, 134);
-  font-family: inherit;
-}
-
-.inputContainer:focus-within {
-  border-color: var(--twitter-color);
-}
-
-.inputContainer:focus-within > label {
-  color: var(--twitter-color);
-}
-
-.inputContainer > label {
-  color: rgb(101, 119, 134);
-  display: block;
-  font-size: 0.9rem;
-}
-
-.inputContainer > input {
-  padding-top: 5px;
-  border: none;
-  width: 100%;
-  background-color: rgb(245, 248, 250);
-  font-size: 1.25rem;
-}
-
-.inputContainer > input:focus {
-  outline: none;
-}
-
 .loginButton {
   width: 100%;
   padding: 14px;
