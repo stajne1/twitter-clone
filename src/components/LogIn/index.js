@@ -14,7 +14,7 @@ const LogIn = () => {
       <Input label="Password" inputProps={{type: 'password', name: 'password', id:'password'}} />
       <button className={classes.loginButton}>Log in</button>
       <div className={classes.links}>
-        <Link>Forgot Password?</Link> 
+        <Link to="password-reset">Forgot Password?</Link> 
         <span> . </span>
         <Link to="/signup">Sign up for Twitter</Link>
       </div>
