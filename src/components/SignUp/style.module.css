@@ -7,7 +7,7 @@
 
 .signupForm {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   padding: 20px;
   margin: 0 auto;
 }
@@ -20,6 +20,14 @@
 .twitterLogo {
   color: var(--twitter-color);
   font-size: 3rem !important;
+}
+
+.signupForm > h2 {
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-bottom: 20px;
 }
 
 .signupButton {

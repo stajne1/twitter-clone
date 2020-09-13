@@ -3,7 +3,7 @@ import classes from './style.module.css';
 
 const Input = props => {
   return (
-    <div className={classes.inputContainer}>
+    <div style={{ ...props.style }} className={classes.inputContainer}>
       <label for={props.inputProps.name}>{props.label}</label>
       <input {...props.inputProps} />
     </div>
