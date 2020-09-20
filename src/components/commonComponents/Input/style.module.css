@@ -8,12 +8,24 @@
   font-family: inherit;
 }
 
+.inputContainer--red {
+  border-color: red;
+}
+
 .inputContainer:focus-within {
   border-color: var(--twitter-color);
 }
 
+.inputContainer--red:focus-within {
+  border-color: red;
+}
+
 .inputContainer:focus-within > label {
   color: var(--twitter-color);
+}
+
+.inputContainer--red:focus-within > label {
+  color: red;
 }
 
 .inputContainer > label {
@@ -30,6 +42,11 @@
   font-size: 1.25rem;
 }
 
-.inputContainer > input:focus {
+input:focus {
   outline: none;
+}
+
+.inputError {
+  color: red;
+  font-size: 0.9rem;
 }
